@@ -63,6 +63,18 @@
     background-color: rgb(255, 255, 255);
 }
 
+.bg-color-3 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.bg-color-4 {
+    background-color: rgb(198, 228, 214);
+}
+
+.bg-color-5 {
+    background-color: rgb(247, 235, 207);
+}
+
 .width-primary {
     max-width: 1280px;
     margin: 0 auto;
@@ -97,6 +109,7 @@ nav li a {
     background-color: rgb(198, 228, 214);
     padding: 115px 60px;
     border-radius: 20px;
+    margin-bottom: 80px;
 }
 
 .banner-content {
@@ -117,3 +130,111 @@ nav li a {
     width: 470px;
 }
 
+/* Pillar Style Starts */
+.pillars {
+    margin-bottom: 80px;
+}
+
+.pillar-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pillar-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.pillar-item{
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    width: 300px;
+    gap: 24px;
+    border-radius: 15px;
+}
+
+.pillar-item-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 15px 0;
+}
+
+.pillar-item-desc {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* Vision Style Starts */
+.vision {
+    margin-bottom: 30px;
+}
+
+.vision-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.vision-desc {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.vision-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.vision-item{
+    margin-right: 20px;
+    padding: 30px;
+    width: 410px;
+    border-radius: 15px;
+    gap: 5px;
+}
+
+.vision-item-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 15px 0;
+}
+
+.vision-item-desc {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 30px;
+}
+
+.btn-1 {
+    background-color: rgb(84, 144, 255);
+}
+
+.btn-1:hover {
+    background-color: rgba(84, 144, 245, 0.2);
+    border: 2px solid rgb(84, 144, 255);
+    color: rgb(84, 144, 255);
+}
+
+.btn-2 {
+    margin-top: 18px;
+    background-color: rgb(9, 161, 92);
+}
+
+.btn-2:hover {
+    background-color: rgb(198, 228, 214);
+    border: 2px solid rgb(9, 161, 92);
+    color: rgb(9, 161, 92);
+}
+
+.btn-3 {
+    background-color: rgb(255, 194, 57);
+}
+
+.btn-3:hover {
+    background-color: rgb(247, 235, 207);
+    border: 2px solid rgb(255, 194, 57);
+    color: rgb(255, 194, 57);
+}
