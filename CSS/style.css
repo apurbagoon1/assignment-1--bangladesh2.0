@@ -310,7 +310,7 @@ nav li a {
 
 /* News Style Starts */
 .news {
-    margin-bottom: 54px;
+    margin-bottom: 80px;
 }
 
 .news-title {
@@ -365,6 +365,61 @@ nav li a {
     margin-bottom: 32px;
 }
 
+/* Donate Style Starts */
+.donate {
+    margin-bottom: 80px;   
+}
 
+.donate-content {
+    text-align: center;
+}
 
+.donate-title {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
 
+.donate-desc {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.donate-amounts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.donate-amount {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 40px;
+    margin-bottom: 32px;
+}
+
+.donate-amount:hover {
+    background-color: rgb(198, 228, 214);
+    cursor: pointer;
+}
+
+.input-box {
+    padding: 20px;
+    text-align: center;
+    margin: 12px 0;
+    width: 1000px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 32px;
+}
+
+input::placeholder {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+}
